@@ -1,0 +1,36 @@
+const weAreInSchool = true
+if (weAreInSchool) {
+  console.log('when does it end?')
+};
+
+const weAreNotInSchool = false
+
+if (weAreNotInSchool) { 
+  console.log('When does it start?')
+};
+
+const weAreNotInSchool = false
+
+if (weAreNotInSchool) {
+  console.log('When does it start?')
+} else {
+  console.log('We are still in school')
+};
+
+constweAreNotInSchool = false
+const itsLunchTime = true
+if (weAreNotInSchool) {
+  console.log('When does it start?')
+} else if (itsLunchtime) {
+  console.log('Lunch is starting soon')
+};
+
+const weAreNotInSchool = false
+const itsLunchTime = false
+if (weAreNotInSchool) {
+  console.log('When does it start?')
+} else if (itsLunchtime) {
+  console.log('Lunch is starting soon')
+} else {
+  console.log('This is all that\'s left')
+}
